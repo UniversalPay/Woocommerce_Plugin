@@ -1,15 +1,20 @@
-=== UniversalPay Gateway for Woocommerce ===
-Requires at least: 4.1
-Tested up to: 4.9.5
-Stable tag: 1.4.0
-License: G
-License URI:
+[![GitHub license](https://img.shields.io/github/license/UniversalPay/Woocommerce_Plugin)](https://github.com/UniversalPay/Woocommerce_Plugin/blob/master/LICENSE)![Version](https://img.shields.io/badge/version-1.1.0-informational)
 
-== Description ==
+
+
+## UniversalPay Gateway for Woocommerce
+Requires at least: 4.1  
+Tested up to: 4.9.5  
+Stable tag: 1.4.0  
+License: G  
+License URI:    
+Minimum WordPress Version: 5.2
+
+## Description 
 
 UniversalPay Gateway for Woocommerce is a Wordpress plugin which allows you to accept payments on your Woocommerce store.
 
-== Installation ==
+## Installation 
 
 This section describes how to install the plugin and get it working.
 
