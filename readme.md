@@ -26,3 +26,6 @@ This section describes how to install the plugin and get it working.
 6. Wait while plugin is uploaded to your server
 7. Add your merchant id and password on "Settings" page, and choose your payment solution
 8. Click "Activate Plugin" button
+
+
+Got a question? Visit https://www.universalpay.es/contacto/ or email integraciones_es@evopayments.com for support.
