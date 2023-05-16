@@ -9,27 +9,25 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: admin\n"
 "X-Poedit-SearchPath-1: classes\n"
 
 #: admin/class-mmb-gateway-request.php:222
-msgid "Card payment failed."
-msgstr "Nem sikerült a kártyás fizetés."
+msgid "Payment failed."
+msgstr "Fizet�s meghi�sult."
 
 #: admin/class-mmb-gateway-request.php:234
 msgid "Card payment completed."
 msgstr "Sikerült a kártyás fizetés."
 
 #: admin/class-mmb-gateway-request.php:247
-msgid ""
-"Thank you for shopping with us.<br />Your transaction was successful, "
-"payment was received.<br />Your order is currently being processed."
+msgid "Thank you for shopping with us.<br />Your transaction was successful, payment was received.<br />Your order is currently being processed."
 msgstr ""
-"Köszönjük, hogy nálunk vásárolt!<br />Tranzakciója sikeres volt, "
-"az összeget megkaptuk.<br />Megrendelésének feldolgozása folyamatban van."
+"Köszönjük, hogy nálunk vásárolt!<br />Tranzakciója sikeres volt, az összeget megkaptuk.<br />Megrendelésének feldolgozása folyamatban "
+"van."
 
 #: admin/class-mmb-gateway.php:72 admin/mmb-gateway-admin-settings.php:31
 msgid "UniversalPay Gateway"
@@ -37,18 +35,15 @@ msgstr "UniversalPay fizetési átjáró"
 
 #: admin/class-mmb-gateway.php:73
 msgid ""
-"UniversalPay gateway sends customers to UniversalPay to enter their payment "
-"information and redirects back to shop when the payment was completed."
+"UniversalPay gateway sends customers to UniversalPay to enter their payment information and redirects back to shop when the payment was completed."
 msgstr ""
-"Az UniversalPay fizetési átjáró az UniversalPay rendszerébe irányítja az ügyfeleket, hogy ott adják meg fizetési "
-"adataikat, majd a fizetés végrehajtását követően visszairányítja őket a boltba."
+"Az UniversalPay fizetési átjáró az UniversalPay rendszerébe irányítja az ügyfeleket, hogy ott adják meg fizetési adataikat, majd a "
+"fizetés végrehajtását követően visszairányítja őket a boltba."
 
 #: admin/class-mmb-gateway.php:144
 #, php-format
-msgid ""
-"UniversalPay doesn't accept your store currency. Check available currencies  %s here"
-msgstr ""
-"Az UniversalPay nem fogadja el az Ön üzletének fizetőeszközét. A rendszerben rendelkezésre álló fizetőeszközöket %s itt találja"
+msgid "UniversalPay doesn't accept your store currency. Check available currencies  %s here"
+msgstr "Az UniversalPay nem fogadja el az Ön üzletének fizetőeszközét. A rendszerben rendelkezésre álló fizetőeszközöket %s itt találja"
 
 #: admin/class-mmb-gateway.php:257 admin/class-mmb-gateway.php:266
 msgid "Bad identifier."
@@ -95,10 +90,8 @@ msgid "Enable Test Mode"
 msgstr "Tesztüzemmód engedélyezése"
 
 #: admin/mmb-gateway-admin-settings.php:43
-msgid ""
-"Enable or disable the test mode for the gateway to test the payment method."
-msgstr ""
-"A fizetési átjáró tesztüzemmódjának engedélyezése vagy letiltása a fizetési mód teszteléséhez."
+msgid "Enable or disable the test mode for the gateway to test the payment method."
+msgstr "A fizetési átjáró tesztüzemmódjának engedélyezése vagy letiltása a fizetési mód teszteléséhez."
 
 #: admin/mmb-gateway-admin-settings.php:48
 msgid "Advanced options"
@@ -109,12 +102,8 @@ msgid "Merchant data"
 msgstr "Kereskedő adatai"
 
 #: admin/mmb-gateway-admin-settings.php:55
-msgid ""
-"In this section You can set up your merchant data for UniversalPay "
-"system."
-msgstr ""
-"Ebben a szakaszban kereskedői adatait adhatja meg az UniversalPay "
-"rendszere számára."
+msgid "In this section You can set up your merchant data for UniversalPay system."
+msgstr "Ebben a szakaszban kereskedői adatait adhatja meg az UniversalPay rendszere számára."
 
 #: admin/mmb-gateway-admin-settings.php:58
 msgid "Merchant ID"
@@ -128,13 +117,11 @@ msgstr "Jelszó"
 msgid "Payment solution"
 msgstr "Fizetési megoldás"
 
-#: admin/mmb-gateway-admin-settings.php:80
-#: admin/mmb-gateway-admin-settings.php:118
+#: admin/mmb-gateway-admin-settings.php:80 admin/mmb-gateway-admin-settings.php:118
 msgid "URLs"
 msgstr "URL-ek"
 
-#: admin/mmb-gateway-admin-settings.php:82
-#: admin/mmb-gateway-admin-settings.php:120
+#: admin/mmb-gateway-admin-settings.php:82 admin/mmb-gateway-admin-settings.php:120
 msgid "In this section You can set up UniversalPay system URLs."
 msgstr "Ebben a szakaszban azokat az URL-eket állíthatja be, amelyeket az UniversalPay rendszerében kíván használni."
 
@@ -178,13 +165,11 @@ msgstr "JavaScript-URL"
 msgid "Cashier URL"
 msgstr "Pénztár-URL"
 
-#: classes/class-mmb-gateway-woocommerce-activator.php:37
-#: classes/class-mmb-gateway-woocommerce-activator.php:43
+#: classes/class-mmb-gateway-woocommerce-activator.php:37 classes/class-mmb-gateway-woocommerce-activator.php:43
 msgid "UniversalPay Gateway for Woocommerce requires Woocommerce version 2.1 or higher"
 msgstr "A Woocommerce UniversalPay fizetési átjárója esetében a Woocommerce 2.1-es vagy újabb verziója szükséges"
 
-#: classes/class-mmb-gateway-woocommerce-activator.php:37
-#: classes/class-mmb-gateway-woocommerce-activator.php:43
+#: classes/class-mmb-gateway-woocommerce-activator.php:37 classes/class-mmb-gateway-woocommerce-activator.php:43
 msgid "Plugin Activation Error"
 msgstr "Beépülőmodul-aktiválási hiba"
 

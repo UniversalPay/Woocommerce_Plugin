@@ -9,15 +9,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: admin\n"
 "X-Poedit-SearchPath-1: classes\n"
 
 #: admin/class-mmb-gateway-request.php:222
-msgid "Card payment failed."
-msgstr "Kaartbetaling mislukt"
+msgid "Payment failed."
+msgstr "Betaling mislukt."
 
 #: admin/class-mmb-gateway-request.php:234
 msgid "Card payment completed."
@@ -25,11 +25,11 @@ msgstr "Kaartbetaling voltooid"
 
 #: admin/class-mmb-gateway-request.php:247
 msgid ""
-"Thank you for shopping with us.<br />Your transaction was successful, "
-"payment was received.<br />Your order is currently being processed."
+"Thank you for shopping with us.<br />Your transaction was successful, payment was received.<br /"
+">Your order is currently being processed."
 msgstr ""
-"Dank voor uw bestelling. <br /> Uw transactie was succesvol,"
-"betaling is ontvangen. <br /> Uw bestelling wordt momenteel verwerkt."
+"Dank voor uw bestelling. <br /> Uw transactie was succesvol,betaling is ontvangen. <br /> Uw "
+"bestelling wordt momenteel verwerkt."
 
 #: admin/class-mmb-gateway.php:72 admin/mmb-gateway-admin-settings.php:31
 msgid "UniversalPay Gateway"
@@ -37,18 +37,16 @@ msgstr "UniversalPay Gateway"
 
 #: admin/class-mmb-gateway.php:73
 msgid ""
-"UniversalPay gateway sends customers to UniversalPay to enter their payment "
-"information and redirects back to shop when the payment was completed."
+"UniversalPay gateway sends customers to UniversalPay to enter their payment information and "
+"redirects back to shop when the payment was completed."
 msgstr ""
-"UniversalPay-gateway zendt klanten naar UniversalPay om hun betaling in te voeren "
-"informatie en verwijst terug naar de winkel wanneer de betaling is voltooid."
+"UniversalPay-gateway zendt klanten naar UniversalPay om hun betaling in te voeren informatie en "
+"verwijst terug naar de winkel wanneer de betaling is voltooid."
 
 #: admin/class-mmb-gateway.php:144
 #, php-format
-msgid ""
-"UniversalPay doesn't accept your store currency. Check available currencies  %s here"
-msgstr ""
-"UniversalPay accepteert uw winkelvaluta niet. Controleer de beschikbare valuta's %s hier"
+msgid "UniversalPay doesn't accept your store currency. Check available currencies  %s here"
+msgstr "UniversalPay accepteert uw winkelvaluta niet. Controleer de beschikbare valuta's %s hier"
 
 #: admin/class-mmb-gateway.php:257 admin/class-mmb-gateway.php:266
 msgid "Bad identifier."
@@ -95,10 +93,8 @@ msgid "Enable Test Mode"
 msgstr "Activeer Tesmodus"
 
 #: admin/mmb-gateway-admin-settings.php:43
-msgid ""
-"Enable or disable the test mode for the gateway to test the payment method."
-msgstr ""
-"Activeer of deactiveer de testmodus voor de gateway om de betalingsmethode te testen"
+msgid "Enable or disable the test mode for the gateway to test the payment method."
+msgstr "Activeer of deactiveer de testmodus voor de gateway om de betalingsmethode te testen"
 
 #: admin/mmb-gateway-admin-settings.php:48
 msgid "Advanced options"
@@ -109,12 +105,8 @@ msgid "Merchant data"
 msgstr "Verkopersgegevens"
 
 #: admin/mmb-gateway-admin-settings.php:55
-msgid ""
-"In this section You can set up your merchant data for UniversalPay "
-"system."
-msgstr ""
-"In dit gedeelte kunt u uw verkopersgegevens voor UniversalPay instellen "
-"systeem"
+msgid "In this section You can set up your merchant data for UniversalPay system."
+msgstr "In dit gedeelte kunt u uw verkopersgegevens voor UniversalPay instellen systeem"
 
 #: admin/mmb-gateway-admin-settings.php:58
 msgid "Merchant ID"
@@ -128,13 +120,11 @@ msgstr "Wachtwoord"
 msgid "Payment solution"
 msgstr "Betaaloplossing"
 
-#: admin/mmb-gateway-admin-settings.php:80
-#: admin/mmb-gateway-admin-settings.php:118
+#: admin/mmb-gateway-admin-settings.php:80 admin/mmb-gateway-admin-settings.php:118
 msgid "URLs"
 msgstr "URL's"
 
-#: admin/mmb-gateway-admin-settings.php:82
-#: admin/mmb-gateway-admin-settings.php:120
+#: admin/mmb-gateway-admin-settings.php:82 admin/mmb-gateway-admin-settings.php:120
 msgid "In this section You can set up UniversalPay system URLs."
 msgstr "In dit gedeelte kunt u URL's van het UniversalPay systeem instellen."
 

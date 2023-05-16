@@ -9,15 +9,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: admin\n"
 "X-Poedit-SearchPath-1: classes\n"
 
 #: admin/class-mmb-gateway-request.php:222
-msgid "Card payment failed."
-msgstr "Platba kartou se nezdařila."
+msgid "Payment failed."
+msgstr "Platba selhala."
 
 #: admin/class-mmb-gateway-request.php:234
 msgid "Card payment completed."
@@ -25,11 +25,11 @@ msgstr "Platba kartou byla dokončena."
 
 #: admin/class-mmb-gateway-request.php:247
 msgid ""
-"Thank you for shopping with us.<br />Your transaction was successful, "
-"payment was received.<br />Your order is currently being processed."
+"Thank you for shopping with us.<br />Your transaction was successful, payment was received.<br />Your "
+"order is currently being processed."
 msgstr ""
-"Děkujeme za Váš nákup u nás. <br />Vaše transakce proběhla úspěšně, "
-"platba byla přijata. <br />Vaše objednávka se momentálně zpracovává."
+"Děkujeme za Váš nákup u nás. <br />Vaše transakce proběhla úspěšně, platba byla přijata. <br />Vaše "
+"objednávka se momentálně zpracovává."
 
 #: admin/class-mmb-gateway.php:72 admin/mmb-gateway-admin-settings.php:31
 msgid "UniversalPay Gateway"
@@ -37,18 +37,16 @@ msgstr "UniversalPay brána"
 
 #: admin/class-mmb-gateway.php:73
 msgid ""
-"UniversalPay gateway sends customers to UniversalPay to enter their payment "
-"information and redirects back to shop when the payment was completed."
+"UniversalPay gateway sends customers to UniversalPay to enter their payment information and redirects back "
+"to shop when the payment was completed."
 msgstr ""
-"UniversalPay brána přesměrovává zákazníky do Systému UniversalPay plateb pro zadání svých "
-"platebních informací a po provedení platby zpět do obchodu."
+"UniversalPay brána přesměrovává zákazníky do Systému UniversalPay plateb pro zadání svých platebních "
+"informací a po provedení platby zpět do obchodu."
 
 #: admin/class-mmb-gateway.php:144
 #, php-format
-msgid ""
-"UniversalPay doesn't accept your store currency. Check available currencies  %s here"
-msgstr ""
-"UniversalPay nepřijímá měnu vašeho obchodu. Zkontrolujte dostupné měny zde"
+msgid "UniversalPay doesn't accept your store currency. Check available currencies  %s here"
+msgstr "UniversalPay nepřijímá měnu vašeho obchodu. Zkontrolujte dostupné měny zde"
 
 #: admin/class-mmb-gateway.php:257 admin/class-mmb-gateway.php:266
 msgid "Bad identifier."
@@ -95,10 +93,8 @@ msgid "Enable Test Mode"
 msgstr "Povolit testovací režim"
 
 #: admin/mmb-gateway-admin-settings.php:43
-msgid ""
-"Enable or disable the test mode for the gateway to test the payment method."
-msgstr ""
-"Povolit nebo zakázat testovací režim brány pro testování této platební metody."
+msgid "Enable or disable the test mode for the gateway to test the payment method."
+msgstr "Povolit nebo zakázat testovací režim brány pro testování této platební metody."
 
 #: admin/mmb-gateway-admin-settings.php:48
 msgid "Advanced options"
@@ -109,12 +105,8 @@ msgid "Merchant data"
 msgstr "Údaje obchodníka"
 
 #: admin/mmb-gateway-admin-settings.php:55
-msgid ""
-"In this section You can set up your merchant data for UniversalPay "
-"system."
-msgstr ""
-"V této sekci si můžete nastavit vaše údaje obchodníka pro Systém "
-"UniversalPay plateb."
+msgid "In this section You can set up your merchant data for UniversalPay system."
+msgstr "V této sekci si můžete nastavit vaše údaje obchodníka pro Systém UniversalPay plateb."
 
 #: admin/mmb-gateway-admin-settings.php:58
 msgid "Merchant ID"
@@ -128,13 +120,11 @@ msgstr "Heslo"
 msgid "Payment solution"
 msgstr "Platební řešení"
 
-#: admin/mmb-gateway-admin-settings.php:80
-#: admin/mmb-gateway-admin-settings.php:118
+#: admin/mmb-gateway-admin-settings.php:80 admin/mmb-gateway-admin-settings.php:118
 msgid "URLs"
 msgstr "Adresy URL"
 
-#: admin/mmb-gateway-admin-settings.php:82
-#: admin/mmb-gateway-admin-settings.php:120
+#: admin/mmb-gateway-admin-settings.php:82 admin/mmb-gateway-admin-settings.php:120
 msgid "In this section You can set up UniversalPay system URLs."
 msgstr "V této sekci si můžete nastavit adresy URL Systému UniversalPay plateb."
 

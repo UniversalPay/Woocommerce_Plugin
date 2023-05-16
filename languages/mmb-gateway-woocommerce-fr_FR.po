@@ -9,15 +9,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: admin\n"
 "X-Poedit-SearchPath-1: classes\n"
 
 #: admin/class-mmb-gateway-request.php:222
-msgid "Card payment failed."
-msgstr "Échec du paiement par carte."
+msgid "Payment failed."
+msgstr "Paiement échoué."
 
 #: admin/class-mmb-gateway-request.php:234
 msgid "Card payment completed."
@@ -25,11 +25,11 @@ msgstr "Paiement par carte effectué."
 
 #: admin/class-mmb-gateway-request.php:247
 msgid ""
-"Thank you for shopping with us.<br />Your transaction was successful, "
-"payment was received.<br />Your order is currently being processed."
+"Thank you for shopping with us.<br />Your transaction was successful, payment was received.<br />Your order "
+"is currently being processed."
 msgstr ""
-"Merci pour votre commande.<br />La transaction a été effectuée avec succès, "
-"le paiement a bien été reçu.<br />Nous traitons actuellement votre commande."
+"Merci pour votre commande.<br />La transaction a été effectuée avec succès, le paiement a bien été reçu.<br /"
+">Nous traitons actuellement votre commande."
 
 #: admin/class-mmb-gateway.php:72 admin/mmb-gateway-admin-settings.php:31
 msgid "UniversalPay Gateway"
@@ -37,18 +37,16 @@ msgstr "Portail UniversalPay"
 
 #: admin/class-mmb-gateway.php:73
 msgid ""
-"UniversalPay gateway sends customers to UniversalPay to enter their payment "
-"information and redirects back to shop when the payment was completed."
+"UniversalPay gateway sends customers to UniversalPay to enter their payment information and redirects back to "
+"shop when the payment was completed."
 msgstr ""
-"Le portail UniversalPay redirige les clients vers la plateforme UniversalPay pour y saisir "
-"leurs informations, puis les renvoie au magasin une fois le paiement effectué."
+"Le portail UniversalPay redirige les clients vers la plateforme UniversalPay pour y saisir leurs "
+"informations, puis les renvoie au magasin une fois le paiement effectué."
 
 #: admin/class-mmb-gateway.php:144
 #, php-format
-msgid ""
-"UniversalPay doesn't accept your store currency. Check available currencies  %s here"
-msgstr ""
-"UniversalPay n'accepte pas la devise de ce magasin. Vérifiez %s ici les devises acceptées"
+msgid "UniversalPay doesn't accept your store currency. Check available currencies  %s here"
+msgstr "UniversalPay n'accepte pas la devise de ce magasin. Vérifiez %s ici les devises acceptées"
 
 #: admin/class-mmb-gateway.php:257 admin/class-mmb-gateway.php:266
 msgid "Bad identifier."
@@ -95,10 +93,8 @@ msgid "Enable Test Mode"
 msgstr "Activer le mode de test"
 
 #: admin/mmb-gateway-admin-settings.php:43
-msgid ""
-"Enable or disable the test mode for the gateway to test the payment method."
-msgstr ""
-"Activer ou désactiver le mode de test du portail pour vérifier une méthode de paiement."
+msgid "Enable or disable the test mode for the gateway to test the payment method."
+msgstr "Activer ou désactiver le mode de test du portail pour vérifier une méthode de paiement."
 
 #: admin/mmb-gateway-admin-settings.php:48
 msgid "Advanced options"
@@ -109,12 +105,8 @@ msgid "Merchant data"
 msgstr "Données commerçant"
 
 #: admin/mmb-gateway-admin-settings.php:55
-msgid ""
-"In this section You can set up your merchant data for UniversalPay "
-"system."
-msgstr ""
-"Dans cette section, vous pouvez saisir vos données commerçant pour la plateforme "
-"UniversalPay."
+msgid "In this section You can set up your merchant data for UniversalPay system."
+msgstr "Dans cette section, vous pouvez saisir vos données commerçant pour la plateforme UniversalPay."
 
 #: admin/mmb-gateway-admin-settings.php:58
 msgid "Merchant ID"
@@ -128,13 +120,11 @@ msgstr "Mot de passe"
 msgid "Payment solution"
 msgstr "Mode de paiement"
 
-#: admin/mmb-gateway-admin-settings.php:80
-#: admin/mmb-gateway-admin-settings.php:118
+#: admin/mmb-gateway-admin-settings.php:80 admin/mmb-gateway-admin-settings.php:118
 msgid "URLs"
 msgstr "URL"
 
-#: admin/mmb-gateway-admin-settings.php:82
-#: admin/mmb-gateway-admin-settings.php:120
+#: admin/mmb-gateway-admin-settings.php:82 admin/mmb-gateway-admin-settings.php:120
 msgid "In this section You can set up UniversalPay system URLs."
 msgstr "Cette section vous permet de définir des URL pour la plateforme UniversalPay."
 
@@ -178,13 +168,11 @@ msgstr "JavaScript URL"
 msgid "Cashier URL"
 msgstr "Cashier URL"
 
-#: classes/class-mmb-gateway-woocommerce-activator.php:37
-#: classes/class-mmb-gateway-woocommerce-activator.php:43
+#: classes/class-mmb-gateway-woocommerce-activator.php:37 classes/class-mmb-gateway-woocommerce-activator.php:43
 msgid "UniversalPay Gateway for Woocommerce requires Woocommerce version 2.1 or higher"
 msgstr "Le portail UniversalPay pour Woocommerce nécessite la version 2.1 (ou supérieure) de Woocommerce"
 
-#: classes/class-mmb-gateway-woocommerce-activator.php:37
-#: classes/class-mmb-gateway-woocommerce-activator.php:43
+#: classes/class-mmb-gateway-woocommerce-activator.php:37 classes/class-mmb-gateway-woocommerce-activator.php:43
 msgid "Plugin Activation Error"
 msgstr "Problème d'activation du plug-in"
 

@@ -9,15 +9,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: admin\n"
 "X-Poedit-SearchPath-1: classes\n"
 
 #: admin/class-mmb-gateway-request.php:222
-msgid "Card payment failed."
-msgstr ""
+msgid "Payment failed."
+msgstr "Payment failed."
 
 #: admin/class-mmb-gateway-request.php:234
 msgid "Card payment completed."
@@ -25,8 +25,8 @@ msgstr ""
 
 #: admin/class-mmb-gateway-request.php:247
 msgid ""
-"Thank you for shopping with us.<br />Your transaction was successful, "
-"payment was received.<br />Your order is currently being processed."
+"Thank you for shopping with us.<br />Your transaction was successful, payment was received."
+"<br />Your order is currently being processed."
 msgstr ""
 
 #: admin/class-mmb-gateway.php:72 admin/mmb-gateway-admin-settings.php:31
@@ -35,14 +35,13 @@ msgstr ""
 
 #: admin/class-mmb-gateway.php:73
 msgid ""
-"UniversalPay gateway sends customers to UniversalPay to enter their payment "
-"information and redirects back to shop when the payment was completed."
+"UniversalPay gateway sends customers to UniversalPay to enter their payment information and "
+"redirects back to shop when the payment was completed."
 msgstr ""
 
 #: admin/class-mmb-gateway.php:144
 #, php-format
-msgid ""
-"UniversalPay doesn't accept your store currency. Check available currencies  %s here"
+msgid "UniversalPay doesn't accept your store currency. Check available currencies  %s here"
 msgstr ""
 
 #: admin/class-mmb-gateway.php:257 admin/class-mmb-gateway.php:266
@@ -90,8 +89,7 @@ msgid "Enable Test Mode"
 msgstr ""
 
 #: admin/mmb-gateway-admin-settings.php:43
-msgid ""
-"Enable or disable the test mode for the gateway to test the payment method."
+msgid "Enable or disable the test mode for the gateway to test the payment method."
 msgstr ""
 
 #: admin/mmb-gateway-admin-settings.php:48
@@ -103,9 +101,7 @@ msgid "Merchant data"
 msgstr ""
 
 #: admin/mmb-gateway-admin-settings.php:55
-msgid ""
-"In this section You can set up your merchant data for UniversalPay "
-"system."
+msgid "In this section You can set up your merchant data for UniversalPay system."
 msgstr ""
 
 #: admin/mmb-gateway-admin-settings.php:58
@@ -120,13 +116,11 @@ msgstr ""
 msgid "Payment solution"
 msgstr ""
 
-#: admin/mmb-gateway-admin-settings.php:80
-#: admin/mmb-gateway-admin-settings.php:118
+#: admin/mmb-gateway-admin-settings.php:80 admin/mmb-gateway-admin-settings.php:118
 msgid "URLs"
 msgstr ""
 
-#: admin/mmb-gateway-admin-settings.php:82
-#: admin/mmb-gateway-admin-settings.php:120
+#: admin/mmb-gateway-admin-settings.php:82 admin/mmb-gateway-admin-settings.php:120
 msgid "In this section You can set up UniversalPay system URLs."
 msgstr ""
 
