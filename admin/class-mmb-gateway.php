@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
  * @package    MMB_Gateway_Woocommerce
  * @subpackage MMB_Gateway_Woocommerce/admin
  */
-class UniversalPay extends WC_Payment_Gateway {
+class Universalpay extends WC_Payment_Gateway {
     /**
      * The ID of this plugin.
      *
@@ -66,7 +66,7 @@ class UniversalPay extends WC_Payment_Gateway {
     public function __construct() {
 
         $this->plugin_name = 'mmb-gateway-woocommerce';
-        $this->version = '1.1.0';
+        $this->version = '1.2.1';
 
         $this->id = 'universalpay';
         $this->method_title = __('UniversalPay', 'mmb-gateway-woocommerce');
@@ -269,7 +269,7 @@ class UniversalPay extends WC_Payment_Gateway {
      */
     public function add_new_gateway($methods)
     {
-        $methods[] = 'UniversalPay';
+        $methods[] = 'Universalpay';
 
         return $methods;
     }
